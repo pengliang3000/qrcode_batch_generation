@@ -1,0 +1,1 @@
+# qrcode_batch_generation
