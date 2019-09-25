@@ -52,7 +52,8 @@ function compose2Image($src_file,$dst_file){
 	imagedestroy($image_2);
 	
 	
-	//Modify  meta data of png files,I want  PNG files with resolution of 300.
+	//Modify  meta data of png files,I want  PNG files with resolution of 300 for Industrial printing
+
 	$file = file_get_contents($merge);
 	$len = pack("N", 9);
 	$sign = pack("A*", "pHYs");
